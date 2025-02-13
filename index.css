@@ -1,0 +1,54 @@
+.attribution {padding-bottom: 5px; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family:  Roboto, Arial, sans-serif;
+}
+
+
+.qr-card {
+    width: 100%;
+    max-width: min(308px, 100%);
+    margin: auto;
+    background: white;
+    border-radius: clamp(12px, 3vw, 16px);
+    text-align: center;
+}
+
+.qr-container {
+    padding: clamp(8px, 16px, 20px);
+    margin-bottom: clamp(8px, 2vw, 12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code {
+    border-radius: clamp(8px, 2vw, 12px);
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: clamp(8px, 2vw, 12px);
+    padding: 2px 30px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 30px;
+    padding-bottom: 5vw;
+}
